@@ -16,4 +16,4 @@ Die grössten Herausforderungen stellten unter anderem der Syntax von C++ dar, s
  
  **Anwendung**
 
-Um das Programm auf einem IoT-Kit anzuwenden, dieses einfach an denn Rechner anschliessen. MBED-Studio erkennt das KIT automatisch und führt das Programm über dieses aus, sobald man das ganze Compiled.
+Um das Programm auf einem IoT-Kit anzuwenden, dieses einfach an denn Rechner anschliessen. MBED-Studio erkennt das KIT automatisch und führt das Programm über dieses aus.
