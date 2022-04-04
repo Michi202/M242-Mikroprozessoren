@@ -1,5 +1,10 @@
 # M242-Mikroprozessoren
 
+**Readme Subprojekts**  
+[SendNFC](SendNFC/README.md)  
+[sendTemperature](sendTemperature/README.md)  
+[WebApp](WebApp/README.md)  
+
 **Projektidee**
 
 Unsere Projektidee besteht aus 3 unterschiedlichen Aspekten und simuliert die Sicherheitsvorkehrung einer Schleuse die zu Extrement Temperaturen führt. 
