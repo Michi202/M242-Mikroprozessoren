@@ -27,4 +27,3 @@ Da Severin Senn sich mit C# und vue.js mehr auf Seiten WebApp auskennt, hat er d
 ![Analyse1](images/Analyse1.PNG)
 ![NFCScan](images/NFCScan.PNG)
 ![ZuHoheTemps](images/ZuHoheTemps.PNG)
-112:43:101:70
