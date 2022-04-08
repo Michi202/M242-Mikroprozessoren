@@ -21,3 +21,10 @@ Um das ganze Projekt durchzuführen muss man die WebApp via Localhost hosten. Di
 **Aufteilung**
 
 Da Severin Senn sich mit C# und vue.js mehr auf Seiten WebApp auskennt, hat er diese Aufgabe übernommen, wärend der Rest sich mit C++ und den IoT-Kits auseinandergesetzt hat. Jedoch haben wir uns auch untereinander Ausgeholfen und gemeinsam schwierigere Probleme behoben, sei es bei den Kits oder der WebApp.
+
+**Demo Pictures**
+![Analyse](images/Analyse.PNG)
+![Analyse1](images/Analyse1.PNG)
+![NFCScan](images/NFCScan.PNG)
+![ZuHoheTemps](images/ZuHoheTemps.PNG)
+112:43:101:70
