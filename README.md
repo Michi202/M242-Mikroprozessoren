@@ -7,7 +7,6 @@ Quelle:  iotkitv3 / mqtt (https://github.com/iotkitv3/mqtt)
 
 Unsere Aufgabe war es, unser Projekt das mittels HTTP und REST Daten über Sensoren aufnimmt und diese sendet, auszubauen das diese mittels MQTT möglich ist.
 
----------------
 
 ## Was macht das Projekt  
 Unsere Projektidee besteht aus 3 unterschiedlichen Aspekten und simuliert die Sicherheitsvorkehrung einer Schleuse die zu extremen Temperaturen führt. 
