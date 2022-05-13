@@ -97,3 +97,20 @@ Da Severin Senn sich mit C# und vue.js mehr auf Seiten WebApp auskennt, hat er d
 ![Analyse](images/Analyse.PNG)
 ![NFCScan](images/NFCScan.PNG)
 ![ZuHoheTemps](images/ZuHoheTemps.PNG)
+
+## Reflexion
+
+### Severin Senn
+
+
+### Michael Marchesi
+Zu Beginn des Moduls hatte ich noch keine Ahnung was auf uns zukommt, dazu kam noch das ich am ersten Tag krank war weil ich Corona hatte, deswegen fehlten mir schon 4 Lektionen. Doch dank meiner Gruppe konnten sie mir aushelfen in dem wir uns gemeinsam in die LB1 einarbeiteten. In vorherhigen Modulen hatten wir schon mit HTTP und REST gearbeitet.
+
+Dank Severin Senn's Wissen konnten wir leicht Daten über die Sensoren auslesen, dann haben wir diese in Daten- und Datendiagrammen ausgegeben.
+MQTT war komplettes Neuland. Wir mussten uns vorerst durch die ganzen Repo's durchklicken und diese einstudieren. Wir hatten zwar einige Probleme mit der Connection und dem Broker doch dies brachte uns weitere Erfahrungen.
+
+### Alessandro Pisani
+
+
+### Noah Barth
+
