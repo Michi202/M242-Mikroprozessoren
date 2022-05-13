@@ -113,3 +113,4 @@ MQTT war komplettes Neuland. Wir mussten uns vorerst durch die ganzen Repo's dur
 
 
 ### Noah Barth
+Um die ganzen Temperatur-Daten über einen Mqtt-Broker zu vermitteln, wurde uns bereits ein Beispielprojekt zur verfügung gestellt. Dies abzuändern benötigte wenig Aufwand und funktionierte nach einigen kurzen fehlversuchen trotzdem ziemlich gut. Etwas schwerer wurde es bei der Konfiguration des Brokers, für welchen Severin Senn zuständig war.
