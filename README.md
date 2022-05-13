@@ -2,6 +2,13 @@
 
 ![Analyse1](images/Analyse1.PNG)
 
+Message Queue Telemetry Transport (MQTT) ist ein offenes Nachrichten-Protokoll für Machine-to-Machine-Kommunikation (M2M), das die Übertragung von Messdaten-Daten in Form von Nachrichten zwischen Geräten ermöglicht, trotz hoher Verzögerungen oder beschränkten Netzwerken.
+Quelle:  iotkitv3 / mqtt (https://github.com/iotkitv3/mqtt) 
+
+Unsere Aufgabe war es, unser Projekt das mittels HTTP und REST Daten über Sensoren aufnimmt und diese sendet, auszubauen das diese mittels MQTT möglich ist.
+
+---------------
+
 ## Was macht das Projekt  
 Unsere Projektidee besteht aus 3 unterschiedlichen Aspekten und simuliert die Sicherheitsvorkehrung einer Schleuse die zu extremen Temperaturen führt. 
 Dabei liefern 2 IoT-Kits die benötigten Daten: Das eine liefert die Umliegende Temperatur, das andere die Informationen einer Keycard, die an den Sensor geführt wird. Würden Anomalien auftreten die zu sehr hohem Temperatur Unterschied führen würden zwischen den 2 IoT-Kits, würde der Zugang mit der Keycard verweigert werden.
