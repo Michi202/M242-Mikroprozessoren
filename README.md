@@ -110,7 +110,7 @@ Dank Severin Senn's Wissen konnten wir leicht Daten über die Sensoren auslesen,
 MQTT war komplettes Neuland. Wir mussten uns vorerst durch die ganzen Repo's durchklicken und diese einstudieren. Wir hatten zwar einige Probleme mit der Connection und dem Broker doch dies brachte uns weitere Erfahrungen.
 
 ### Alessandro Pisani
-
+Gelernt habe ich, wie man mit Geräten Daten verarbeitet, diese verwertet und dann diese anzeigen lässt mit dem IoT-Kit oder generell den Boards. Mit dem Broker hatten wir Probleme doch mit der Authentifizierung zwischen Geräten und der Connection konnte ich auch noch einiges dazulernen. Ich denke, dass ich diese Informationen möglicherweise einmal wiederverwenden kann im Alltag, deswegen finde ich dies eine gute Erfahrung.
 
 ### Noah Barth
 Um die ganzen Temperatur-Daten über einen Mqtt-Broker zu vermitteln, wurde uns bereits ein Beispielprojekt zur verfügung gestellt. Dies abzuändern benötigte wenig Aufwand und funktionierte nach einigen kurzen fehlversuchen trotzdem ziemlich gut. Etwas schwerer wurde es bei der Konfiguration des Brokers, für welchen Severin Senn zuständig war.
