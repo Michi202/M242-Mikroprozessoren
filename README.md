@@ -18,7 +18,7 @@ Die Installation ist einfach, das Projekt zu sich herunterladen via git clone.
 ```git clone https://github.com/Michi202/M242-Mikroprozessoren.git```
 
 Danach ```MBED Studio``` öffnen und in das Repository navigieren.
-[OpenWorkspace](OpenWorkspace/README.md) 
+[OpenWorkspace](img/OpenWorkspace.png) 
 Die Seite wird via localhost gehostet.
 Alle Geräte müssen sich im selben Netzwerk befinden und die IP-Adresse des WebApp-Gerätes muss den Kits bekannt sein.
 
