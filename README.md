@@ -90,7 +90,7 @@ starten können. Den Rest wird wird für sie gemacht. In ihrem Cmd sollte dann a
 Der User begibt sich auf das Eingabeformular und gibt seine Login-Daten ein. Danach wird er dazu aufgefordert, seine Key-Card an den Sensor zu halten. Ist die Temperatur auserhalb des vorgegebenen Limits, so erlaubt ihm der Login keinen Zugriff. Ist die Temperatur jedoch passabel, so wird er auf eine Seite weitergeleitet, die unterschiedliche Statistiken anzeigt (anzahl Logins, Temperaturen, usw.). Im "ernsten" Anwendungsfall würde sich dann die Türe öffnen.
 
 ## Aufteilung
-Da Severin Senn sich mit C# und vue.js mehr auf Seiten WebApp auskennt, hat er diese Aufgabe übernommen, wärend der Rest sich mit C++ und den IoT-Kits auseinandergesetzt hat. Jedoch haben wir uns auch untereinander Ausgeholfen und gemeinsam schwierigere Probleme behoben, sei es bei den Kits oder der WebApp.
+Da Severin Senn sich mit C# und Vue.js mehr auf Seiten WebApp auskennt, hat er diese Aufgabe übernommen, er hat die Daten genommen und diese für den Benutzer über die grafische Schnittoberlfäche angezeigt, wärend der Rest sich mit C++ und den IoT-Kits auseinandergesetzt hat, dass die Sensoren die Daten übermitteln, validiert werden und übergeben werden ans Frontend. Jedoch haben wir unsere arbeiten abgestimmt, dass jeder immer etwas zu tun hatte und wir uns trotzdem gegenseitig helfen konnten. LB3 war etwas schwieriger zu handeln, denn aus der letzten LB haben wir gelernt, dass wir die Dokumentation nicht ausser Acht lassen dürfen und trotzdem HTTP REST durch MQTT auswechseln mussten, dass das Programm trotzdem noch funktioniert.
 
 ## Demo
 ![Analyse1](images/Analyse1.PNG)
@@ -113,4 +113,3 @@ MQTT war komplettes Neuland. Wir mussten uns vorerst durch die ganzen Repo's dur
 
 
 ### Noah Barth
-
