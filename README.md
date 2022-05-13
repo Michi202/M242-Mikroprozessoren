@@ -113,4 +113,6 @@ MQTT war komplettes Neuland. Wir mussten uns vorerst durch die ganzen Repo's dur
 Gelernt habe ich, wie man mit Geräten Daten verarbeitet, diese verwertet und dann diese anzeigen lässt mit dem IoT-Kit oder generell den Boards. Mit dem Broker hatten wir Probleme doch mit der Authentifizierung zwischen Geräten und der Connection konnte ich auch noch einiges dazulernen. Ich denke, dass ich diese Informationen möglicherweise einmal wiederverwenden kann im Alltag, deswegen finde ich dies eine gute Erfahrung.
 
 ### Noah Barth
+Innerhalb dieses Moduls habe ich einiges über die verschiedenen Möglichkeiten zur Kommunikation zwischen unterschiedlichen Geräten & Prozessen gelernt. Die Datenabhandlung gehörte zur grössten Herausforderung, war aber äusserst zurfriedenstellend waren wenn sie funktionierten.
+
 Um die ganzen Temperatur-Daten über einen Mqtt-Broker zu vermitteln, wurde uns bereits ein Beispielprojekt zur verfügung gestellt. Dies abzuändern benötigte wenig Aufwand und funktionierte nach einigen kurzen fehlversuchen trotzdem ziemlich gut. Etwas schwerer wurde es bei der Konfiguration des Brokers, für welchen Severin Senn zuständig war.
