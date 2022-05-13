@@ -31,8 +31,9 @@ Unter localhost:8080 können sie die Seite aufrufen.
 
 ## References  
 
-### Send NFC
-[SendNFC](SendNFC/README.md) 
+### [SendNFC](SendNFC/README.md) 
+
+------------
 
 #### Konzept
 
@@ -49,8 +50,41 @@ Meine Herausforderung war grösstens, das knowhow am der Sprache. C++ war neulan
 Um das Programm auf einem IoT-Kit anzuwenden, dieses einfach an denn Rechner anschliessen. MBED-Studio erkennt das KIT automatisch und führt das Programm über dieses aus. Anschliessend muss man eine NFC-Karte an unseren Sensonr halten, damitt es los gehen kann!
 
 
-[sendTemperature](sendTemperature/README.md)  
-[WebApp](WebApp/README.md)  
+### [sendTemperature](sendTemperature/README.md) 
+
+---------------
+
+#### Konzept
+
+Das sendTemperature-Programm basiert auf dem von der Lehrperson zur Verfügung gestelltem HTTP-Programm. Dabei liefert dies im Gegenzug zum Vorgänger anstelle eines String Temperaturwerte mittels HTTP-POST Request an eine vordefinierte Schnittstelle. Die HTTP-Request wird an eine IP-Adresse im selben Netzwerk gestellt. Daher ist im momentanen Beispiel das Netzwerk "LERNKUBE" mit dem Passwort "l3rnk4b3" im mbed_config.h definiert, das heisst falls die Geräte sich nicht im selben Netzwerk befinden kommt es zu Komplikationen.
+
+Die Temperatur wird am IoT-Kit mittels eines Sensors erkannt und in der Request als JSON-Objekt dem Empfänger zugestellt. Die übermittelten Temperaturen werden im Backend verglichen, falls der Unterschied beider Daten zu gross wäre, wird eine Fehlermeldung ausgegeben, dass der Temperaturunterschied zu hoch ist.
+
+#### Probleme
+
+Die grössten Herausforderungen stellten unter anderem der Syntax von C++ dar, da wir viele Strings übergeben mussten, sowie Flüchtigkeitsfehler auf eigener sowie auf Seiten der Schnittstelle.
+
+#### Anwendung
+
+Um das Programm auf einem IoT-Kit anzuwenden, dieses einfach an denn Rechner anschliessen. MBED-Studio erkennt das KIT automatisch und führt das Programm über dieses aus.
+
+### [WebApp](WebApp/README.md)  
+
+--------------------
+
+Dieses Abteil ist das Herz stück unseres Programmes. Es kommuniziert mit den IoT-Kits und schaut, dass das Login sicher und richtig abläuft. Es ist eine WebApplikation die in 2 Teile gespalten ist (Frontend,Backend).
+
+#### Frontend Installation
+
+Das Frontend kann mittels NodeJs zum laufen gebracht werden. Dafür Navigiren sie in den Ordner "M242.Web". Wenn sie in diesem Verzeichniss sind lassen sie den Command
+
+```npm install```
+
+laufen um die dependencies zu instaliren. Wenn sie dies gemacht haben müssen sie noch in der Config Datei sse.env.js anpassen die im Verzeichnis Config liegt. In diesem File müssen sie den Key API_URL anpassen. Dieser sollte ihr Url zeigen auf dem das Backend läuft. Wichtig: am Ende der Url Sollte /api stehen. Wenn sie dies alles gemcht haben sollten sie auf das Root Verzeichnis "M242.Web" navigiren und den Command
+
+```npm run dev-sse```
+
+starten können. Den Rest wird wird für sie gemacht. In ihrem Cmd sollte dann am ende eine Localhost Url mit einem Port stehen sie müssen nur noch einen Web Browser öffnen und diese Url eingeben.
 
 ## Ablauf
 Der User begibt sich auf das Eingabeformular und gibt seine Login-Daten ein. Danach wird er dazu aufgefordert, seine Key-Card an den Sensor zu halten. Ist die Temperatur auserhalb des vorgegebenen Limits, so erlaubt ihm der Login keinen Zugriff. Ist die Temperatur jedoch passabel, so wird er auf eine Seite weitergeleitet, die unterschiedliche Statistiken anzeigt (anzahl Logins, Temperaturen, usw.). Im "ernsten" Anwendungsfall würde sich dann die Türe öffnen.
