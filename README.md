@@ -101,7 +101,7 @@ Da Severin Senn sich mit C# und Vue.js mehr auf Seiten WebApp auskennt, hat er d
 ## Reflexion
 
 ### Severin Senn
-
+Ich habe durch diese Projekt sehr viel gelernt übe die Komunikation mit mehren Geräten. Ich konnte durch diese Projekt wachsen und neus Entdecken. Natürlich gab es auch Probleme das wohl grösste war die Komunikation zwischen den Geräten mittels Rest Protokoll, da alles sehr Asynchron verläuft musste ich hin und wieder mal mittels Logik und Timespans Tricksens. Alles in allem hat es mir aber sehr Spass gemacht und mich gefreut das ich so etwas mal machen durfte.
 
 ### Michael Marchesi
 Zu Beginn des Moduls hatte ich noch keine Ahnung was auf uns zukommt, dazu kam noch das ich am ersten Tag krank war weil ich Corona hatte, deswegen fehlten mir schon 4 Lektionen. Doch dank meiner Gruppe konnten sie mir aushelfen in dem wir uns gemeinsam in die LB1 einarbeiteten. In vorherhigen Modulen hatten wir schon mit HTTP und REST gearbeitet.
