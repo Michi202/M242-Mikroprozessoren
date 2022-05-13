@@ -18,9 +18,16 @@ Die Installation ist einfach, das Projekt zu sich herunterladen via git clone.
 ```git clone https://github.com/Michi202/M242-Mikroprozessoren.git```
 
 Danach ```MBED Studio``` öffnen und in das Repository navigieren.
-![OpenWorkspace](images/OpenWorkspace.png | height=100) 
+
+<img src="https://github.com/Michi202/M242-Mikroprozessoren/blob/LB03/images/OpenWorkspace.png" width=200 height=300>
+
+Dann muss das zu ausführende Programm ausgewählt werden und das korrekte Modell ausgewählt werden für das IoT-Kit. Beim ausführen braucht dies einige Zeit zum kompilieren.
+
+<img src="https://github.com/Michi202/M242-Mikroprozessoren/blob/LB03/images/ActiveProgram.png" width=350 height=300>
+
 Die Seite wird via localhost gehostet.
 Alle Geräte müssen sich im selben Netzwerk befinden und die IP-Adresse des WebApp-Gerätes muss den Kits bekannt sein.
+Unter localhost:8080 können sie die Seite aufrufen.
 
 ## References  
 [SendNFC](SendNFC/README.md)  
